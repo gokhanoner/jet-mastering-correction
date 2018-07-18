@@ -7,5 +7,6 @@ import java.util.Collection;
 @Data(staticConstructor = "of")
 public class MCJobResult {
     private final MCJob job;
+    private final int size;
     private final Collection<BiTemporalDoc> result;
 }

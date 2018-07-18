@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jet.version>0.6.1</jet.version>
+        <jet.version>0.7-SNAPSHOT</jet.version>
         <log4j.version>1.2.12</log4j.version>
     </properties>
 

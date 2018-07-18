@@ -2,116 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe62e4ac-4a0b-48e8-9a95-4e1a981ff5ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_eclipsesource_minimal_json_minimal_json_0_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_3_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_all_3_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_jet_hazelcast_jet_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/LogicalId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-cluster/data-cluster.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-cluster/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jetmasteringcorrection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/job-engine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/main/resources/data-cluster.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/test/java/JetProc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-engine/src/test/java/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/oner/AzureSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/oner/job/BatchProcessJob.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/oner/model/BiTemporalDoc$LogicalId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/oner/model/BiTemporalDoc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/oner/model/RunMode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/Starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/config/JetConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/controller/RestAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/service/JobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oner/AzureSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oner/job/BatchProcessJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oner/model/BiTemporalDoc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oner/model/RunMode.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/index/BiTempValExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/index/BiTemporalIdx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_eclipsesource_minimal_json_minimal_json_0_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_all_3_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/Dummy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cluster/data-cluster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-cluster/data-cluster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cluster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-cluster/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jetmasteringcorrection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jetmasteringcorrection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-engine/job-engine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/job-engine/job-engine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-engine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job-engine/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-engine/src/test/java/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-engine/src/test/java/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/service/JobService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,59 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataCheck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobProcessor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AzureDataLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="66" column="37" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BiTemporalDoc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JetProc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/job-engine/src/test/java/JetProc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="360">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,29 +58,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/job-engine/pom.xml">
+      <file leaf-file-name="MCJobResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="105">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistributedFunction.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/jet/function/DistributedFunction.java">
+      <file leaf-file-name="ValidityRange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="28" column="79" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="79" />
+            <state relative-caret-position="120">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientMapProxy.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/client/proxy/ClientMapProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="266" column="10" lean-forward="true" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-cluster/pom.xml">
+        <entry file="file://$PROJECT_DIR$/web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="440">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -218,11 +97,8 @@
       <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -239,18 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transac</find>
-      <find>om</find>
-      <find>isAss</find>
-      <find>&quot;CURRENCY</find>
-      <find>maturityDate</find>
-      <find>&quot;id</find>
-      <find>getObject</find>
-      <find>fetch`</find>
-      <find>207745730</find>
-      <find>Source</find>
-      <find>getAsync</find>
-      <find>shutdown&quot;</find>
       <find>HttpPost</find>
       <find>HttpCommanPro</find>
       <find>http</find>
@@ -258,6 +122,29 @@
       <find>remoteMap</find>
       <find>maxBufferedItemCount</find>
       <find>\@Data\(staticConstructor \= \&quot;of\&quot;\)\n    public static class LogicalId implements Serializable \{\n        private final String source\;\n        private final long axiomaDataId\;\n    \}</find>
+      <find>axi</find>
+      <find>CURR</find>
+      <find>axioma</find>
+      <find>axio</find>
+      <find>Partition</find>
+      <find>RequestOptions</find>
+      <find>compare</find>
+      <find>static</find>
+      <find>MIN_YEAR</find>
+      <find>1992-</find>
+      <find>4274</find>
+      <find>246</find>
+      <find>2328</find>
+      <find>1487</find>
+      <find>3284</find>
+      <find>equal(</find>
+      <find>equals(</find>
+      <find>1567</find>
+      <find>1567`</find>
+      <find>3618</find>
+      <find>6250</find>
+      <find>write</find>
+      <find>toObke</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -277,21 +164,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/model/RunMode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/model/TemporalHeader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/model/LogicalId.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/ReadFromAzure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/model/BiTemporalDoc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/job/BatchProcessJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oner/AzureSource.java" />
-        <option value="$PROJECT_DIR$/job-engine/src/main/java/oner/job/BatchProcessJob.java" />
-        <option value="$PROJECT_DIR$/job-engine/src/main/java/axiomapoc/job/BatchProcessJob.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/Starter.java" />
-        <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/AzureSource.java" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MBJobStatus.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobStatus.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java" />
         <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/job/JetInstance.java" />
         <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/job/BatchProcessJob.java" />
         <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/job/JobListener.java" />
@@ -304,29 +177,44 @@
         <option value="$PROJECT_DIR$/job-engine/src/main/resources/data-cluster.properties" />
         <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/BatchProcessJob.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/util/Constants.java" />
-        <option value="$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCRequest.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/controller/RestAPI.java" />
-        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJob.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/config/JetConfig.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/service/JobService.java" />
-        <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java" />
         <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/LocalDateTimeConverter.java" />
-        <option value="$PROJECT_DIR$/job-engine/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java" />
-        <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java" />
         <option value="$PROJECT_DIR$/job-engine/src/test/java/Dummy.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/LogicalId.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/Dummy.java" />
-        <option value="$PROJECT_DIR$/data-cluster/pom.xml" />
-        <option value="$PROJECT_DIR$/job-engine/src/test/java/Member.java" />
         <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java" />
         <option value="$PROJECT_DIR$/job-engine/src/test/java/JetProc.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/RangeComparator.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/util/MyPred.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobListener.java" />
+        <option value="$PROJECT_DIR$/data-cluster/src/main/resources/hazelcast.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/util/DateUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/index/BiTempValExtractor.java" />
+        <option value="$PROJECT_DIR$/job-engine/src/test/java/Member.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/index/BiTemporalIdx.java" />
+        <option value="$PROJECT_DIR$/job-engine/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCRequest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/service/JobService.java" />
+        <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java" />
+        <option value="$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java" />
+        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java" />
+        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/LDTConverter.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java" />
+        <option value="$PROJECT_DIR$/data-cluster/src/main/assembly/test-jar-with-dependencies.xml" />
+        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/TestCl.java" />
+        <option value="$PROJECT_DIR$/data-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataChecker.java" />
+        <option value="$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java" />
+        <option value="$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
       </list>
     </option>
   </component>
@@ -342,17 +230,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jet-mastering-correction-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="jet-mastering-correction-data-cluster" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jet-mastering-correction-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="jet-mastering-correction-data-cluster" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jet-mastering-correction-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -369,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,12 +261,19 @@
             </path>
             <path>
               <item name="jetmasteringcorrection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jetmasteringcorrection" type="462c0819:PsiDirectoryNode" />
+              <item name="data-cluster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jetmasteringcorrection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jetmasteringcorrection" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -400,13 +289,14 @@
       <recent name="com.axiomapoc.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.axiomapoc.loader" />
       <recent name="" />
       <recent name="com.axiomapoc.model" />
-      <recent name="com.axiomapoc.loader" />
       <recent name="com.axiomapoc.job" />
       <recent name="com.oner.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/job-engine/src/main/resources" />
       <recent name="$PROJECT_DIR$/job-engine/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -424,28 +314,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JetProc">
+  <component name="RunManager" selected="Application.AzureDataChecker">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="JetProc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetProc" />
-      <module name="job-engine" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="JobEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.jobengine.JobEngine" />
-      <module name="job-engine" />
+    <configuration name="AzureDataChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.loader.AzureDataChecker" />
+      <module name="data-cluster" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.axiomapoc.jobengine.*" />
+          <option name="PATTERN" value="com.axiomapoc.loader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Member (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.loader.Member" />
+    <configuration name="AzureDataLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.loader.AzureDataLoader" />
+      <module name="data-cluster" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.axiomapoc.loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DataCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.loader.DataCheck" />
       <module name="data-cluster" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -468,10 +364,44 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Member" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Member" />
-      <module name="job-engine" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="Member-2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.datacluster.Member" />
+      <module name="data-cluster" />
+      <option name="PROGRAM_PARAMETERS" value="2" />
+      <option name="VM_PARAMETERS" value="-Xmx2G" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.axiomapoc.datacluster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Member-Data" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.datacluster.Member" />
+      <module name="data-cluster" />
+      <option name="PROGRAM_PARAMETERS" value="Data" />
+      <option name="VM_PARAMETERS" value="-Xmx4G" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.axiomapoc.datacluster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Member-XX" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.datacluster.Member" />
+      <module name="data-cluster" />
+      <option name="PROGRAM_PARAMETERS" value="X2" />
+      <option name="VM_PARAMETERS" value="-Xmx2G" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.axiomapoc.datacluster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.axiomapoc.web.Starter" />
@@ -480,6 +410,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.axiomapoc.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestCl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.axiomapoc.loader.TestCl" />
+      <module name="data-cluster" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.axiomapoc.loader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -540,19 +481,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.Member-1" />
-      <item itemvalue="Application.JobEngine" />
-      <item itemvalue="Application.Member" />
-      <item itemvalue="Application.JetProc" />
+      <item itemvalue="Application.Member-XX" />
+      <item itemvalue="Application.Member-Data" />
+      <item itemvalue="Application.Member-2" />
+      <item itemvalue="Application.AzureDataLoader" />
       <item itemvalue="Application.Starter" />
-      <item itemvalue="Application.Member (1)" />
+      <item itemvalue="Application.DataCheck" />
+      <item itemvalue="Application.TestCl" />
+      <item itemvalue="Application.AzureDataChecker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JetProc" />
-        <item itemvalue="Application.Member (1)" />
-        <item itemvalue="Application.Member" />
+        <item itemvalue="Application.AzureDataChecker" />
+        <item itemvalue="Application.AzureDataLoader" />
+        <item itemvalue="Application.TestCl" />
+        <item itemvalue="Application.DataCheck" />
         <item itemvalue="Application.Starter" />
-        <item itemvalue="Application.JobEngine" />
       </list>
     </recent_temporary>
   </component>
@@ -574,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530043686814</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ee">
+      <created>1531408900691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531408900691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -582,24 +533,24 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32876712" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329235" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32876712" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297568" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3520548" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2931507" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3018598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28612304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3958904" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56438357" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32739726" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3260274" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -611,199 +562,157 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/query/impl/predicates/BetweenVisitor.class</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="7" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.7-SNAPSHOT/hazelcast-jet-0.7-SNAPSHOT-sources.jar!/com/hazelcast/query/impl/Extractable.java">
+    <entry file="file://$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="186">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.7-SNAPSHOT/hazelcast-jet-0.7-SNAPSHOT-sources.jar!/com/hazelcast/projection/impl/SingleAttributeProjection.java">
+    <entry file="file://$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="54" column="62" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="62" />
+        <state relative-caret-position="86">
+          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="105" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.7-SNAPSHOT/hazelcast-jet-0.7-SNAPSHOT-sources.jar!/com/hazelcast/projection/Projections.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/client/proxy/ClientMapProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="115">
+          <caret line="1395" column="21" selection-start-line="1395" selection-start-column="8" selection-end-line="1395" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/spi/impl/operationservice/impl/OperationRunnerImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8059">
-          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        <state relative-caret-position="1365">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/map/impl/operation/HDMapFetchWithQueryOperation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="1250" column="22" selection-start-line="1250" selection-start-column="22" selection-end-line="1250" selection-end-column="22" />
+        <state relative-caret-position="360">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar!/com/google/gson/FieldNamingPolicy.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/query/impl/predicates/RuleBasedQueryOptimizer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/FieldNamingStrategy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/query/impl/predicates/BetweenVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="24" column="138" selection-start-line="24" selection-start-column="131" selection-end-line="24" selection-end-column="138" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fatboyindustrial/gson-javatime-serialisers/gson-javatime-serialisers/1.1.1/gson-javatime-serialisers-1.1.1.jar!/com/fatboyindustrial/gsonjavatime/LocalDateConverter.class">
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="10" selection-start-line="10" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/LocalDateTimeConverter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fatboyindustrial/gson-javatime-serialisers/gson-javatime-serialisers/1.1.1/gson-javatime-serialisers-1.1.1.jar!/com/fatboyindustrial/gsonjavatime/LocalDateTimeConverter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/client/map/impl/proxy/EnterpriseClientMapProxyImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="19" selection-start-line="19" selection-end-line="36" selection-end-column="1" />
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/map/impl/proxy/MapProxyImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fatboyindustrial/gson-javatime-serialisers/gson-javatime-serialisers/1.1.1/gson-javatime-serialisers-1.1.1.jar!/com/fatboyindustrial/gsonjavatime/Converters.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="232">
           <caret line="58" column="84" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/ExclusionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/GsonBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="445" column="54" selection-start-line="445" selection-start-column="54" selection-end-line="445" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/FieldNamingPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/azure-documentdb/1.16.2/azure-documentdb-1.16.2.jar!/com/microsoft/azure/documentdb/FeedOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/azure-documentdb/1.16.2/azure-documentdb-1.16.2.jar!/com/microsoft/azure/documentdb/FeedResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/stream/BaseStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/azure-documentdb/1.16.2/azure-documentdb-1.16.2.jar!/com/microsoft/azure/documentdb/QueryIterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/internal/serialization/impl/AbstractSerializationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="243" column="22" selection-start-line="243" selection-start-column="22" selection-end-line="243" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/internal/serialization/InternalSerializationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/internal/serialization/impl/ObjectDataOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="250" column="40" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/axiomapoc/web/Starter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fatboyindustrial/gson-javatime-serialisers/gson-javatime-serialisers/1.1.1/gson-javatime-serialisers-1.1.1.jar!/com/fatboyindustrial/gsonjavatime/LocalDateTimeConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/nio/ObjectDataInput.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fatboyindustrial/gson-javatime-serialisers/gson-javatime-serialisers/1.1.1/gson-javatime-serialisers-1.1.1-sources.jar!/com/fatboyindustrial/gsonjavatime/Converters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+        <state relative-caret-position="256">
+          <caret line="103" column="80" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/internal/serialization/impl/ByteArrayObjectDataOutput.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fatboyindustrial/gson-javatime-serialisers/gson-javatime-serialisers/1.1.1/gson-javatime-serialisers-1.1.1-sources.jar!/com/fatboyindustrial/gsonjavatime/LocalDateTimeConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="374" column="27" selection-start-line="374" selection-start-column="16" selection-end-line="374" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="40" selection-start-line="40" selection-end-line="86" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/client/map/impl/ClientMapQueryPartitionIterator.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/time/format/ResolverStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="414">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="870" column="49" selection-start-line="870" selection-start-column="43" selection-end-line="870" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/LDTConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/azure-documentdb/1.16.2/azure-documentdb-1.16.2.jar!/com/microsoft/azure/documentdb/ConsistencyLevel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/azure-documentdb/1.16.2/azure-documentdb-1.16.2.jar!/com/microsoft/azure/documentdb/ConnectionPolicy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-802">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/nio/ObjectDataOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="114">
           <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
         </state>
       </provider>
@@ -815,156 +724,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/src/test/java/Dummy.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/Dummy.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/src/test/java/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/jet/core/processor/SourceProcessors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="333" column="47" selection-start-line="333" selection-start-column="42" selection-end-line="333" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/jet/function/DistributedFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="28" column="79" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="79" />
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/jet/pipeline/Sources.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="398" column="5" lean-forward="true" selection-start-line="398" selection-start-column="5" selection-end-line="398" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1651" column="41" lean-forward="true" selection-start-line="1651" selection-start-column="41" selection-end-line="1651" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="2062" column="44" selection-start-line="2062" selection-start-column="44" selection-end-line="2062" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="2002" column="26" selection-start-line="2002" selection-start-column="13" selection-end-line="2002" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/main/assembly/test-jar-with-dependencies.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-enterprise-all/3.10.2/hazelcast-enterprise-all-3.10.2.jar!/com/hazelcast/config/MulticastConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-all/3.10.2/hazelcast-all-3.10.2-sources.jar!/com/hazelcast/config/MulticastConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="262" column="27" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast-all/3.10.2/hazelcast-all-3.10.2-sources.jar!/com/hazelcast/config/JoinConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/TestCl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-cluster/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/Member.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MapKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/src/test/java/JetProc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/pom.xml">
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/DataCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job-engine/src/main/java/com/axiomapoc/jobengine/JobProcessor.java">
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/hazelcast/3.10.2/hazelcast-3.10.2-sources.jar!/com/hazelcast/query/extractor/ValueExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+        <state relative-caret-position="86">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/index/BiTempValExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/index/BiTemporalIdx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/main/java/com/axiomapoc/datacluster/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-cluster/src/test/java/com/axiomapoc/loader/AzureDataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/internal/serialization/impl/StreamSerializerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/internal/serialization/impl/SerializerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/internal/serialization/impl/AbstractSerializationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="78" column="58" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="58" />
+          <folding>
+            <element signature="e#4158#4186#0" expanded="true" />
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5810#5811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/spi/serialization/SerializationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/client/spi/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="97" column="47" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="47" />
+          <folding>
+            <element signature="e#3674#3675#0" expanded="true" />
+            <element signature="e#3732#3733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hazelcast/jet/hazelcast-jet/0.6.1/hazelcast-jet-0.6.1-sources.jar!/com/hazelcast/client/proxy/ClientMapProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="266" column="10" lean-forward="true" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/BiTemporalDoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/MCJobResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/axiomapoc/model/ValidityRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1059,6 +1042,11 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean package -DskipTests=true" />
+    <option value="clean install -DskipTests=true" />
+    <option value="clean package" />
+    <option value="clean test-compile" />
+    <option value="clean jar:test-jar" />
     <option value="clean" />
   </component>
 </project>

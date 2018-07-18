@@ -1,10 +1,8 @@
 package com.axiomapoc.loader;
 
-import com.axiomapoc.model.Dummy;
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
 
-import java.time.LocalDateTime;
 import java.util.stream.IntStream;
 
 public class Member {

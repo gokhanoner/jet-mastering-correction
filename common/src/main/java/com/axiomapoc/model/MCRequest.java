@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @Data
@@ -14,5 +15,7 @@ import java.time.LocalDate;
 public class MCRequest implements Serializable {
     private LocalDate asAtDate;
     private String[] sources;
+    private String currency;
+    private LocalDateTime maturityDate;
     //Other request params
 }

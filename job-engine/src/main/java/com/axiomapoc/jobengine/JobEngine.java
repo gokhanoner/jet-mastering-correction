@@ -32,6 +32,8 @@ public class JobEngine {
 
         jetConfig.getHazelcastConfig().getMapConfig(JOB_MAP).addEntryListenerConfig(cfg);
         jetConfig.getHazelcastConfig().getNetworkConfig().setPort(6701);
+        jetConfig.getHazelcastConfig().getManagementCenterConfig().setEnabled(true).setUrl("http://localhost:8080/hazelcast-mancenter");
+
 
         JetInstance jetInstance = Jet.newJetInstance(jetConfig);
 

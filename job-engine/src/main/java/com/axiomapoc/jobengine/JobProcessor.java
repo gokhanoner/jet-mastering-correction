@@ -1,5 +1,6 @@
 package com.axiomapoc.jobengine;
 
+import com.axiomapoc.index.BiTemporalIdx;
 import com.axiomapoc.model.BiTemporalDoc;
 import com.axiomapoc.model.LogicalId;
 import com.axiomapoc.model.MCJob;
@@ -13,13 +14,20 @@ import com.hazelcast.jet.JetInstance;
 import com.hazelcast.jet.Job;
 import com.hazelcast.jet.pipeline.BatchStage;
 import com.hazelcast.jet.pipeline.Pipeline;
+import com.hazelcast.jet.pipeline.Sink;
 import com.hazelcast.jet.pipeline.Sinks;
 import com.hazelcast.jet.pipeline.Sources;
+import com.hazelcast.projection.Projections;
 import com.hazelcast.query.Predicate;
+import com.hazelcast.query.Predicates;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.UUID;
 
 import static com.axiomapoc.util.Constants.INSTRUMENT_MAP;
@@ -27,6 +35,7 @@ import static com.axiomapoc.util.Constants.JOB_COUNTER;
 import static com.axiomapoc.util.Constants.JOB_MAP;
 import static com.hazelcast.jet.aggregate.AggregateOperations.counting;
 import static com.hazelcast.jet.aggregate.AggregateOperations.maxBy;
+import static com.hazelcast.jet.aggregate.AggregateOperations.toList;
 import static com.hazelcast.jet.function.DistributedComparator.comparing;
 import static com.hazelcast.query.Predicates.*;
 
@@ -69,7 +78,7 @@ public class JobProcessor {
     }
 
     private static void updateJobStatus(MCJob mcJob, JobStatus jobStatus) {
-        IMapJet<UUID, MCJob> jobMap = jetInstance.getMap(JOB_MAP);
+        IMapJet<String, MCJob> jobMap = jetInstance.getMap(JOB_MAP);
         mcJob.setJobStatus(jobStatus);
 
         switch (jobStatus) {
@@ -81,35 +90,43 @@ public class JobProcessor {
                 break;
         }
 
-        jobMap.put(mcJob.getRequestId(), mcJob);
+        jobMap.put(mcJob.getRequestId().toString(), mcJob);
     }
 
     private static Pipeline buildPipeline(UUID requestId, MCRequest mcRequest) {
         Pipeline p = Pipeline.create();
-        long asAtDate = mcRequest.getAsAtDate().atStartOfDay().atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();
 
-        Predicate<MapKey, BiTemporalDoc> pr = and(in("souces", mcRequest.getSources()));
+        LocalDateTime asAtDate = mcRequest.getAsAtDate().atStartOfDay();
+        Predicate sources = in("source", mcRequest.getSources());
+
+        Predicate predicate = lessEqual("bitempidx", new BiTemporalIdx(asAtDate));
+
+        //Predicate predicate = and(lessEqual("validityRange.validFrom", asAtDate),
+        //        greaterThan("validityRange.validTo", asAtDate),
+        //        lessEqual("transactionTime", asAtDate));
 
         BatchStage<BiTemporalDoc> data = p
-                .drawFrom(Sources.<BiTemporalDoc, MapKey, BiTemporalDoc>remoteMap(INSTRUMENT_MAP, dataClientConfig, alwaysTrue(), Map.Entry::getValue));
+                .drawFrom(Sources.<BiTemporalDoc, MapKey, BiTemporalDoc>remoteMap(INSTRUMENT_MAP, dataClientConfig, predicate, Projections.singleAttribute("this"))).setName("filter-by-temporal");
+
 
         //Mastering
         BatchStage<BiTemporalDoc> aggregate = data
-                //.map(Map.Entry::getValue)
-                .filter(e -> e.isValid(mcRequest.getAsAtDate().atStartOfDay()))
-                .groupingKey(e -> LogicalId.of(e.getSource(), e.getAxiomaDataId()))
-                .aggregate(maxBy(comparing(BiTemporalDoc::getTransactionTime)))
-                .map(Map.Entry::getValue)
-                .filter(e -> e.getCurrency().equals("USD"));
+                .filter(e -> Arrays.asList(mcRequest.getSources()).contains(e.getSource())).setName("filter-sources")
+                .addKey(e -> LogicalId.of(e.getSource(), e.getAxiomaDataId()))
+                .aggregate(maxBy(comparing(BiTemporalDoc::getTransactionTime))).setName("find-doc-with-max-tran-time")
+                .map(Map.Entry::getValue).setName("map-2-value")
+                //Enrichment steps
+                //.addKey(BiTemporalDoc::getAxiomaDataId)
+                //.aggregate(toList());
+                // Correction Step
+                .filter(e -> Objects.isNull(mcRequest.getCurrency()) ? true : Objects.equals(e.getCurrency(), mcRequest.getCurrency())).setName("filter-currency")
+                .filter(e -> Objects.isNull(mcRequest.getMaturityDate()) ? true : Objects.equals(e.getMaturityDate(), mcRequest.getMaturityDate())).setName("filter-mat-date");
 
-        //.groupingKey(e -> e.getAxiomaDataId())
-        //.aggregate(toList());
-        // Correction Step
-        //.filter(e -> e.getCurrency().equals("USD") && e.getMaturityDate().toLocalDate().isEqual(LocalDate.now()))
+
+        aggregate.drainTo(Sinks.logger());
+        aggregate.drainTo(Sinks.list(requestId.toString())).setName("write-to-list");
 
         aggregate.aggregate(counting()).drainTo(Sinks.logger());
-
-        aggregate.drainTo(Sinks.list(requestId.toString()));
 
         return p;
     }

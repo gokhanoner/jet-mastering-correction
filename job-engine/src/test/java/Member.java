@@ -1,4 +1,3 @@
-import com.axiomapoc.model.Dummy;
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
 
@@ -12,7 +11,5 @@ public class Member {
         System.setProperty("hazelcast.enterprise.license.key","HazelcastEnterpriseHD#2Nodes#maOHFiwR5YEcy1T6K7bJ0u290q21h9d19g00sX99C39399eG99Z9v0x9t9x0");
 
         HazelcastInstance hz = Hazelcast.newHazelcastInstance();
-
-        IntStream.range(0, 10).forEach(i -> hz.getMap("test").put(Dummy.of(i, Dummy.DT.of(LocalDateTime.now())), Dummy.of(i, Dummy.DT.of(LocalDateTime.now()))));
-    }
+        }
 }

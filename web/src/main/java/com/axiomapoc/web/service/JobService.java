@@ -31,21 +31,21 @@ public class JobService {
         MCJob job = MCJob.of(UUID.randomUUID(), mcRequest, LocalDateTime.now());
         job.setJobStatus(SUBMITTED);
 
-        IMapJet<UUID, MCJob> jobMap = jetInstance.getMap(JOB_MAP);
+        IMapJet<String, MCJob> jobMap = jetInstance.getMap(JOB_MAP);
 
         initiateWait(job.getRequestId());
 
         //Post Job
-        jobMap.put(job.getRequestId(), job);
+        jobMap.put(job.getRequestId().toString(), job);
 
         //Wait until job-engine finishes the execution
         waitJobCompletion(job.getRequestId());
 
         //Get Job Result
-        job = jobMap.get(job.getRequestId());
+        job = jobMap.get(job.getRequestId().toString());
 
         //Return Job Results
-        return MCJobResult.of(job, jetInstance.getList(job.getRequestId().toString()));
+        return MCJobResult.of(job, jetInstance.getList(job.getRequestId().toString()), jetInstance.getList(job.getRequestId().toString()).size());
     }
 
     private void initiateWait(UUID requestId) {

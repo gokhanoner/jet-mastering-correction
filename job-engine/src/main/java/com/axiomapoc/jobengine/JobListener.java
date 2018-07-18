@@ -6,10 +6,10 @@ import com.hazelcast.map.listener.EntryAddedListener;
 
 import java.util.UUID;
 
-public class JobListener implements EntryAddedListener<UUID, MCJob> {
+public class JobListener implements EntryAddedListener<String, MCJob> {
 
     @Override
-    public void entryAdded(EntryEvent<UUID, MCJob> event) {
+    public void entryAdded(EntryEvent<String, MCJob> event) {
         JobProcessor.submitJob(event.getValue());
     }
 
