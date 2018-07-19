@@ -99,11 +99,11 @@ public class JobProcessor {
         LocalDateTime asAtDate = mcRequest.getAsAtDate().atStartOfDay();
         Predicate sources = in("source", mcRequest.getSources());
 
-        Predicate predicate = lessEqual("bitempidx", new BiTemporalIdx(asAtDate));
+        //Predicate predicate = lessEqual("bitempidx", new BiTemporalIdx(asAtDate));
 
-        //Predicate predicate = and(lessEqual("validityRange.validFrom", asAtDate),
-        //        greaterThan("validityRange.validTo", asAtDate),
-        //        lessEqual("transactionTime", asAtDate));
+        Predicate predicate = and(lessEqual("validityRange.validFrom", asAtDate),
+                greaterThan("validityRange.validTo", asAtDate),
+                lessEqual("transactionTime", asAtDate));
 
         BatchStage<BiTemporalDoc> data = p
                 .drawFrom(Sources.<BiTemporalDoc, MapKey, BiTemporalDoc>remoteMap(INSTRUMENT_MAP, dataClientConfig, predicate, Projections.singleAttribute("this"))).setName("filter-by-temporal");

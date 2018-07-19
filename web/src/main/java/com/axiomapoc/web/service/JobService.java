@@ -45,7 +45,7 @@ public class JobService {
         job = jobMap.get(job.getRequestId().toString());
 
         //Return Job Results
-        return MCJobResult.of(job, jetInstance.getList(job.getRequestId().toString()), jetInstance.getList(job.getRequestId().toString()).size());
+        return MCJobResult.of(job, jetInstance.getList(job.getRequestId().toString()).size(), jetInstance.getList(job.getRequestId().toString()));
     }
 
     private void initiateWait(UUID requestId) {
