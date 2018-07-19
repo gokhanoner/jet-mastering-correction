@@ -12,6 +12,8 @@
     <modules>
         <module>web</module>
         <module>common</module>
+        <module>job-engine</module>
+        <module>data-cluster</module>
     </modules>
 
 </project>
