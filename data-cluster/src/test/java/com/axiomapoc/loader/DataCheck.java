@@ -26,8 +26,6 @@ public class DataCheck {
 
     public static void main(String[] args) throws Exception {
         try {
-            System.setProperty("hazelcast.enterprise.license.key", "HazelcastEnterpriseHD#2Nodes#maOHFiwR5YEcy1T6K7bJ0u290q21h9d19g00sX99C39399eG99Z9v0x9t9x0");
-
             ClientConfig clientConfig = new ClientConfig();
             clientConfig.getGroupConfig().setName("axioma-data");
 
