@@ -30,7 +30,10 @@ public class AzureDataLoader {
 
     public static void main(String[] args) throws Exception {
         try {
-            HazelcastInstance hz = HazelcastClient.newHazelcastClient();
+            ClientConfig clientConfig = new ClientConfig();
+            clientConfig.getGroupConfig().setName(DATA_CLUSTER_NAME);
+
+            HazelcastInstance hz = HazelcastClient.newHazelcastClient(clientConfig);
 
             loadData(hz, args);
         } finally {
