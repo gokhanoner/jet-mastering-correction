@@ -112,7 +112,7 @@ public class JobProcessor {
         //Mastering
         BatchStage<BiTemporalDoc> aggregate = data
                 .filter(e -> Arrays.asList(mcRequest.getSources()).contains(e.getSource())).setName("filter-sources")
-                .groupingKey(e -> LogicalId.of(e.getSource(), e.getAxiomaDataId()))
+                .addKey(e -> LogicalId.of(e.getSource(), e.getAxiomaDataId()))
                 .aggregate(maxBy(comparing(BiTemporalDoc::getTransactionTime))).setName("find-doc-with-max-tran-time")
                 .map(Map.Entry::getValue).setName("map-2-value")
                 //Enrichment steps

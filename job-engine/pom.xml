@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jet.version>0.6.1</jet.version>
+        <jet.version>0.7-SNAPSHOT</jet.version>
         <log4j.version>1.2.12</log4j.version>
     </properties>
 
@@ -43,5 +43,25 @@
             <version>${log4j.version}</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>snapshot-repository</id>
+            <name>Maven2 Snapshot Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>cloudbees-snapshot-repository</id>
+            <url>https://repository-hazelcast-l337.forge.cloudbees.com/snapshot/</url>
+        </repository>
+        <repository>
+            <id>cloudbees-release-repository</id>
+            <url>https://repository-hazelcast-l337.forge.cloudbees.com/release/</url>
+        </repository>
+    </repositories>
     
 </project>
