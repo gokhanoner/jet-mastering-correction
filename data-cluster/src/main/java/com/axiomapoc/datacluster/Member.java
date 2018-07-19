@@ -21,8 +21,6 @@ public class Member {
 
         Config config = new Config();
         config.getGroupConfig().setName(DATA_CLUSTER_NAME);
-        config.getMapConfig(CORRECTION_MAP).getHotRestartConfig().setEnabled(true);
-        config.getMapConfig(INSTRUMENT_MAP).getHotRestartConfig().setEnabled(true);
 
         config.getMapConfig(INSTRUMENT_MAP)
                 .addMapAttributeConfig(new MapAttributeConfig("bitempidx", "com.axiomapoc.index.BiTempValExtractor"));
@@ -32,8 +30,6 @@ public class Member {
         config.getMapConfig(INSTRUMENT_MAP).addMapIndexConfig(new MapIndexConfig("transactionTime", true));
         config.getMapConfig(INSTRUMENT_MAP).addMapIndexConfig(new MapIndexConfig("validityRange.validFrom", true));
         config.getMapConfig(INSTRUMENT_MAP).addMapIndexConfig(new MapIndexConfig("validityRange.validTo", true));
-        
-        config.getHotRestartPersistenceConfig().setEnabled(true).setBaseDir(new File(args[0]));
 
         HazelcastInstance hz = Hazelcast.newHazelcastInstance(config);
 

@@ -11,7 +11,7 @@
     <dependencies>
         <dependency>
             <groupId>com.hazelcast</groupId>
-            <artifactId>hazelcast-enterprise-all</artifactId>
+            <artifactId>hazelcast-all</artifactId>
             <version>3.10.2</version>
         </dependency>
         <dependency>
